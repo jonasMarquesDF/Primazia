@@ -59,10 +59,20 @@
             text-decoration: none;
         }
 
-        .logo-img {
-            height: 40px;
-            width: auto;
-            object-fit: contain;
+        .logo-main {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: var(--text-main);
+        }
+
+        .logo-sub {
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.4em;
+            color: var(--primary);
+            margin-top: 0.15rem;
         }
 
         .btn-back {
@@ -129,7 +139,8 @@
     <!-- Header -->
     <header class="header-simple">
         <a href="index.html" class="logo">
-            <img src="assets/logo_primazia.png" alt="Primazia Marcenaria" class="logo-img">
+            <span class="logo-main">PRIMAZIA</span>
+            <span class="logo-sub">MARCENARIA</span>
         </a>
         <a href="index.html" class="btn-back"><i class="fas fa-arrow-left"></i> Voltar ao Site</a>
     </header>

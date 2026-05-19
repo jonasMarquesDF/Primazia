@@ -253,17 +253,6 @@ strong {
     line-height: 1;
 }
 
-.logo-img {
-    height: 48px;
-    width: auto;
-    object-fit: contain;
-    transition: var(--transition-smooth);
-}
-
-.header.scrolled .logo-img {
-    height: 40px;
-}
-
 .logo-main {
     font-family: var(--font-serif);
     font-size: 1.45rem;
